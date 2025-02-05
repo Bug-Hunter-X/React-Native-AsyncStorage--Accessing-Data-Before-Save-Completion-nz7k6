@@ -1,0 +1,1 @@
+This React Native bug occurs when using AsyncStorage to store data. The issue arises when trying to access the stored data before it has finished saving.  This can lead to unexpected behavior, such as undefined values or crashes. The problem is exacerbated when multiple asynchronous operations interact with AsyncStorage concurrently.
